@@ -1,12 +1,12 @@
 body {
-    background-color: #10AC3D;
+    background-color: #009c3b;
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 40px 0;
 }
 
 .container.gallery-container {
-    background-color: #fff;
+    background-color: #fbdb04;
     color: #35373a;
     min-height: 100vh;
     padding: 30px 50px;
@@ -83,5 +83,24 @@ body {
 @media(max-width: 768px) {
     body {
         padding: 0;
+    }
+}
+
+.card-body, a, h6, p, .text-muted  {
+    color: #002776;    
+    font-size: 16px;
+    font-weight: bold;
+}
+.text-muted {
+    margin: 5px ​10px 25px 0px !important; 
+}
+.card-body {
+    margin-bottom: 25px;
+}
+@media (max-width: 1068px) {
+    .logo {
+        top: 65px;
+        left: 40%;
+        font-size: 16px
     }
 }

@@ -1,13 +1,13 @@
 body {
-    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    background-image: linear-gradient(to top, #002776 0%, #fbdb04 75%, #009c3b 100%);
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 60px 0;
 }
 
 .container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
+    background-color: #fbdb04;
+    color: #002776;
     min-height: 100vh;
     border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
@@ -25,7 +25,7 @@ body {
     text-align: center;
     max-width: 800px;
     margin: 25px auto;
-    color: #888;
+    color: #002776;
     font-size: 18px;
 }
 
@@ -62,5 +62,8 @@ body {
     body {
         padding: 0;
     }
- 
+}
+
+.tz-gallery {
+    padding: 60px 40px 40px 40px;
 }

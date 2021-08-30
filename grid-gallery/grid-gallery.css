@@ -1,3 +1,7 @@
+body {
+  color: #002776;
+}
+
 .gallery-block.grid-gallery{
   padding-bottom: 60px;
   padding-top: 60px;
@@ -33,4 +37,17 @@
     transform: scale(1.05);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
+}
+
+body  {
+  background-color: #ffdf00;
+}
+
+.card {
+  color: #009c3b;
+  margin-bottom: 25px;
+}
+
+.card a {
+  color: #009c3b !important;
 }

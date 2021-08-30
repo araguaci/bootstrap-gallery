@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-  --primary-color: #10AC3D;
-  --secondary-color: #EDC61C;
+  --primary-color: #009c3b;
+  --secondary-color: #fbdb04;
 }
 
 /* BASE STYLES */
@@ -10,13 +10,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #10AC3D;
+  color: #009c3b; 
 }
 
 html,
 body {
   font-family: 'Poppins', sans-serif;
-  color: #10AC3D;  
+  color: #009c3b;  
 }
 
 h1 {
@@ -48,7 +48,7 @@ section.home {
   cursor: pointer;
   display: inline-block;
   background: var(--primary-color);
-  color: #EDC61C;
+  color: #fbdb04;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
@@ -97,7 +97,7 @@ section.home {
   left: 100%;
   width: 100%;
   height: 100%;
-  background-color: #EDC61C;
+  background-color: #fbdb04;
   z-index: 15;
   display: flex;
   justify-content: center;
@@ -115,12 +115,12 @@ section.home {
 .navigation ul li {
   position: relative;
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 
 .navigation ul li a {
   font-size: 2.2rem;
-  color: #111;
+  color: #009c3b;
   text-decoration: none;
   font-weight: 300;
 }
@@ -233,9 +233,9 @@ section.home {
 
 .portfolio .item .action a {
   display: inline-block;
-  color: #10AC3D;
+  color: #009c3b;
   text-decoration: none;
-  border: 1px solid #10AC3D;
+  border: 1px solid #009c3b;
   padding: 5px 15px;
 }
 
@@ -251,7 +251,7 @@ section.home {
 
 .contact-form {
   position: relative;
-  background: #EDC61C;
+  background: #fbdb04;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
 }
@@ -278,8 +278,8 @@ section.home {
 .contact-form .row input,
 .contact-form .row textarea {
   position: relative;
-  border: 1px solid #10AC3D;
-  color: #10AC3D;
+  border: 1px solid #009c3b;
+  color: #009c3b;
   background: transparent;
   width: 100%;
   padding: 10px;
@@ -296,7 +296,7 @@ section.home {
 
 .contact-form .row input[type='submit'] {
   background-color: var(--secondary-color);
-  color: #10AC3D;
+  color: #009c3b;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -307,7 +307,7 @@ section.home {
 
 .contact-info {
   width: 350px;
-  background: #EDC61C;
+  background: #fbdb04;
   padding: 60px 40px 20px;
 }
 
@@ -328,7 +328,7 @@ section.home {
 
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
-  color: #10AC3D;
+  color: #009c3b;
 }
 
 @media (max-width: 1068px) {
@@ -348,6 +348,7 @@ section.home {
 
   .navigation ul li a {
     font-size: 2rem;
+    color: #009c3b;
   }
 
   .services {
@@ -386,10 +387,33 @@ section.home {
   }
 
   .services .service {
-    box-shadow: 0 10px 30px #10AC3D;
+    box-shadow: 0 10px 30px #009c3b;
   }
 }
 
 .home-content li {
     padding: 5px;
+}
+
+.card-body, a, h6, p, .text-muted  {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.logo, .card-body, a, h6, p, .text-muted  {
+  color: #009c3b !important;    
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.home {
+  background-image: linear-gradient(to top, #fff 15%, #fbdb04 75%);
+}
+
+.navigation ul li a {
+  font-size: 25px !important;
+  background-color: #fbdb04;
+  padding: 5px;
 }
